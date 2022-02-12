@@ -4,7 +4,7 @@ const cors = require('cors');
 const db = require('./config');
 
 const routeAuth = require('./Routes/auth');
-const routerPost = require('./routes/post');
+const routerPost = require('./Routes/post');
 const routeSong = require('./Routes/song')
 
 const PORT = process.env.PORT || 4000
