@@ -10,7 +10,7 @@ const routeSong = require('./Routes/song')
 const PORT = process.env.PORT || 4000
 
 app.use(express.json());
-app.use(cors({origin:'https://musiclofi.netlify.app'}));
+app.use(cors());
 
 
 app.use('/auth',routeAuth);
